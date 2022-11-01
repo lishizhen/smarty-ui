@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable", "esnext"]
+  },
+  "include": ["./**/*.*", "./shims-vue.ds.ts"],
+  "exclude": ["node_modules"],
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true
+}
